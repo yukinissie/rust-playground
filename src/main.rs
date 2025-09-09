@@ -20,6 +20,7 @@ use hello_macro_derive::HelloMacro;
 struct Pancakes;
 
 fn main() {
+    // ref: https://doc.rust-lang.org/book/ch20-05-macros.html
     // 宣言型マクロ
     let v: Vec<u32> = vec![1, 2, 3];
     println!("{:?}", v);
